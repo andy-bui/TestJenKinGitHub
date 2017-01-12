@@ -1,0 +1,40 @@
+PODS:
+  - Cartography (1.0.1)
+  - CircleProgressView (1.0.13)
+  - GoogleAnalytics (3.17.0)
+  - HockeySDK (4.1.3):
+    - HockeySDK/DefaultLib (= 4.1.3)
+  - HockeySDK/DefaultLib (4.1.3)
+  - IQKeyboardManagerSwift (4.0.8)
+  - OneSignal (2.3.4)
+  - Realm (2.1.2):
+    - Realm/Headers (= 2.1.2)
+  - Realm/Headers (2.1.2)
+  - RealmSwift (2.1.2):
+    - Realm (= 2.1.2)
+  - TPKeyboardAvoiding (1.3.1)
+
+DEPENDENCIES:
+  - Cartography (~> 1.0)
+  - CircleProgressView (~> 1.0)
+  - GoogleAnalytics (~> 3.17)
+  - HockeySDK (~> 4.1)
+  - IQKeyboardManagerSwift
+  - OneSignal (~> 2.3)
+  - RealmSwift (~> 2.1)
+  - TPKeyboardAvoiding (~> 1.3)
+
+SPEC CHECKSUMS:
+  Cartography: c1460e99395b824d9d75360b0382faeb0b33dcd7
+  CircleProgressView: 65283c9f23483889421c6e3c89f5e1a9b0e0ff19
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  HockeySDK: 7dd8d7f5a4d71b7a5eebb320c8515cb22e99221b
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  OneSignal: c8f0d08ffa30fcf751c97a29639725877027e788
+  Realm: efe855f4d977c8ce5a82d3116d9f1ff155a6550c
+  RealmSwift: 17d6ee30b6f9df86364408c2197492e33bfea567
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+
+PODFILE CHECKSUM: f787ada6eccf163f1e28e1b06f1d5f070fd7281d
+
+COCOAPODS: 1.1.1

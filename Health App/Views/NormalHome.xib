@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Health_App" customModuleProvider="target">
+            <connections>
+                <outlet property="lbNormal1" destination="Fen-vF-pEQ" id="l7L-u8-9dM"/>
+                <outlet property="lbNormal2" destination="gpN-Ka-777" id="ZEH-cV-W0D"/>
+                <outlet property="lbNormal3" destination="vot-jJ-Jrr" id="DJb-oN-8kO"/>
+                <outlet property="normalK" destination="6OU-yR-GXj" id="Hwc-vT-8dT"/>
+                <outlet property="normalMeter" destination="L3i-yh-4Eb" id="5Un-VZ-k65"/>
+                <outlet property="normalView" destination="iN0-l3-epB" id="CKQ-wp-QZL"/>
+                <outlet property="reducedCaloIntake" destination="KQh-P4-QaS" id="yFr-PJ-eP5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="343"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L3i-yh-4Eb" customClass="CircleProgressView" customModule="CircleProgressView">
+                    <rect key="frame" x="5" y="5" width="333" height="333"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calorie" translatesAutoresizingMaskIntoConstraints="NO" id="6OU-yR-GXj">
+                            <rect key="frame" x="0.0" y="25" width="333" height="96.5"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カロリー貯金" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Fen-vF-pEQ">
+                            <rect key="frame" x="92.5" y="121.5" width="148" height="27.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
+                            <color key="textColor" red="0.55588012933731079" green="0.76489752531051636" blue="0.20521113276481628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カロリーを記録して" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="gpN-Ka-777">
+                            <rect key="frame" x="71.5" y="158" width="190" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                            <color key="textColor" red="0.29615652561187744" green="0.35865631699562073" blue="0.42389756441116333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カロリーを貯金しましょう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="vot-jJ-Jrr">
+                            <rect key="frame" x="41.5" y="196.5" width="250" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                            <color key="textColor" red="0.2961565256" green="0.358656317" blue="0.42389756439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="gpN-Ka-777" firstAttribute="centerX" secondItem="L3i-yh-4Eb" secondAttribute="centerX" id="1uW-3D-MhT"/>
+                        <constraint firstItem="vot-jJ-Jrr" firstAttribute="centerY" secondItem="L3i-yh-4Eb" secondAttribute="centerY" multiplier="3:2.4" id="77T-rB-zaU"/>
+                        <constraint firstItem="Fen-vF-pEQ" firstAttribute="top" secondItem="6OU-yR-GXj" secondAttribute="bottom" id="G2J-eI-vAU"/>
+                        <constraint firstItem="vot-jJ-Jrr" firstAttribute="width" secondItem="L3i-yh-4Eb" secondAttribute="width" multiplier="3:4" id="H4o-kg-1zt"/>
+                        <constraint firstItem="Fen-vF-pEQ" firstAttribute="width" secondItem="L3i-yh-4Eb" secondAttribute="width" multiplier="2:4.5" id="Pdb-Cr-b2B"/>
+                        <constraint firstItem="gpN-Ka-777" firstAttribute="centerY" secondItem="L3i-yh-4Eb" secondAttribute="centerY" multiplier="3:2.95" id="VMB-kI-i8u"/>
+                        <constraint firstItem="6OU-yR-GXj" firstAttribute="centerX" secondItem="L3i-yh-4Eb" secondAttribute="centerX" id="gn4-Jh-Sr5"/>
+                        <constraint firstItem="6OU-yR-GXj" firstAttribute="width" secondItem="L3i-yh-4Eb" secondAttribute="width" id="jNC-l9-fhb"/>
+                        <constraint firstItem="vot-jJ-Jrr" firstAttribute="centerX" secondItem="L3i-yh-4Eb" secondAttribute="centerX" id="nvc-gI-b0h"/>
+                        <constraint firstItem="Fen-vF-pEQ" firstAttribute="centerY" secondItem="L3i-yh-4Eb" secondAttribute="centerY" multiplier="3:3.7" id="ogc-GY-uQc"/>
+                        <constraint firstItem="Fen-vF-pEQ" firstAttribute="centerX" secondItem="L3i-yh-4Eb" secondAttribute="centerX" id="p8S-zz-j0y"/>
+                        <constraint firstItem="gpN-Ka-777" firstAttribute="width" secondItem="L3i-yh-4Eb" secondAttribute="width" multiplier="2:3.5" id="sAL-kd-mhz"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clockwise" value="YES"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="trackImage" value="progressImage"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="trackBackgroundColor">
+                            <color key="value" red="0.80784313730000001" green="0.0" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="centerFillColor">
+                            <color key="value" red="0.98039215686274506" green="0.96862745098039216" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="trackFillColor">
+                            <color key="value" red="0.98039215690000003" green="0.56470588239999997" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目標まで -7,200 kcal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="KQh-P4-QaS">
+                    <rect key="frame" x="74.5" y="247" width="194.5" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="kc7-BZ-DH2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.98980742692947388" green="0.63668221235275269" blue="0.5163542628288269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="KQh-P4-QaS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8Oc-nq-dfJ"/>
+                <constraint firstAttribute="bottom" secondItem="L3i-yh-4Eb" secondAttribute="bottom" constant="5" id="ExQ-IC-ZFz"/>
+                <constraint firstItem="KQh-P4-QaS" firstAttribute="width" secondItem="L3i-yh-4Eb" secondAttribute="width" multiplier="3.5:6" id="MsF-dm-Lhh"/>
+                <constraint firstItem="6OU-yR-GXj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="R4M-9N-n5L"/>
+                <constraint firstItem="L3i-yh-4Eb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="ZGD-KR-TfP"/>
+                <constraint firstAttribute="trailing" secondItem="L3i-yh-4Eb" secondAttribute="trailing" constant="5" id="iIH-WJ-YZi"/>
+                <constraint firstItem="KQh-P4-QaS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="5:3.3" id="oc3-fi-HU6"/>
+                <constraint firstItem="L3i-yh-4Eb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="zSE-bZ-Gcj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-180.5" y="-468.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calorie" width="54" height="71"/>
+        <image name="progressImage" width="250" height="250"/>
+    </resources>
+</document>
