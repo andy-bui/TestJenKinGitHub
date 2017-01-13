@@ -4,52 +4,57 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Cartography.xcscheme_^#shared#^_</key>
+		<key>Cartography.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CircleProgressView.xcscheme_^#shared#^_</key>
+		<key>CircleProgressView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>HockeySDK-HockeySDKResources.xcscheme_^#shared#^_</key>
+		<key>HockeySDK-HockeySDKResources.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>IQKeyboardManagerSwift.xcscheme_^#shared#^_</key>
+		<key>IQKeyboardManagerSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Health App.xcscheme_^#shared#^_</key>
+		<key>Pods-Health App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Health AppTests.xcscheme_^#shared#^_</key>
+		<key>Pods-Health AppTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Health AppUITests.xcscheme_^#shared#^_</key>
+		<key>Pods-Health AppUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Realm.xcscheme_^#shared#^_</key>
+		<key>Realm.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RealmSwift.xcscheme_^#shared#^_</key>
+		<key>RealmSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>TPKeyboardAvoiding.xcscheme_^#shared#^_</key>
+		<key>SwiftGifOrigin.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,6 +62,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>23649BCD88543610EB927F19EC806C85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>326BE90E6ED8045F3530124802FE00AE</key>
 		<dict>
 			<key>primary</key>
@@ -67,12 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>544212980401A6DA7806F65EAD8C6637</key>
+		<key>4DE486BA740776E6DE09A2A232CDD5CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A881B39DE34A8527E01080DC3BD5BDD</key>
+		<key>544212980401A6DA7806F65EAD8C6637</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7C2FADE17813D0DA03AB858476FE467A</key>
+		<key>75FAAB24194547DB85DDB849EDC4A037</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90BFA84E82D760555F784D400680966B</key>
+		<key>787311836BF953E9CFE73BD8FCBF17F3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B6F3A8DAD8B204A4F74C04168A308524</key>
+		<key>B20A02EB2AAF338A54D428878A378BCD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
