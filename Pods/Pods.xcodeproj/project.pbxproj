@@ -47,7 +47,6 @@
 		2BC48BA9EC7B6F6F334FB9CF2758D461 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C1CADB1E77633C8BF50AB61BA255C6 /* IQUIView+Hierarchy.swift */; };
 		2EBD7B6D6EEBAD72870AECB44D1E3AE2 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402FF6741618FC24BE9449E2FBBC41A3 /* IQBarButtonItem.swift */; };
 		2EE722B87D1D28E1D2446175AB0C8E98 /* RealmSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8066292522CFA2119B2A94D0C5B355B4 /* RealmSwift-dummy.m */; };
-		30162DC8280EEB1D9A683616DDB56DE0 /* Pods-Health AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA04119AD4FA939CE4B3FCD9A463F63 /* Pods-Health AppUITests-dummy.m */; };
 		306241CD913E05529D30E2FD1992ECE8 /* pt-PT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E93EF2C49CE901EC3D4DC28CAB1C3AE6 /* pt-PT.lproj */; };
 		3195139D13CD9323B2D2EEB6438F1191 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EDBF05562DA04F0CBA58B522E5BC7B1C /* de.lproj */; };
 		32D47B0AE0C145C1E9662CC2468FED0E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3519E9DCC0C4DB77B399D9C688AACCF /* IQTitleBarButtonItem.swift */; };
@@ -77,6 +76,7 @@
 		4718EEA4080C989F351BC0C549C494AA /* RLMSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E62A32299768C10308C1D82D6FA4BDB6 /* RLMSyncManager.h */; };
 		48A40D72172326A03E17B5C27306A6FE /* RLMQueryUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B8883F9A1C45CDFF451DB10156AA4CD /* RLMQueryUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.2.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		4A05524D6A0DBC3CBBD694D026EA2625 /* AppIconPlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E893665B838A95470D4A61D97A7DE2 /* AppIconPlaceHolder.png */; };
+		4B1235DAE80D7451B660A0F8F152677E /* Pods-Health AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA04119AD4FA939CE4B3FCD9A463F63 /* Pods-Health AppUITests-dummy.m */; };
 		4B905598F0FA1A6185BC05CB5ED904EE /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301BF34A2379C1722F7715B349673F48 /* Aliases.swift */; };
 		4CCF42646D52A14DE30205DB20B689ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
 		4E1B1ECBF262C7B2F4757C324D0EA16F /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731135390897DF6C49E5E9DC43F1698 /* Util.swift */; };
@@ -97,7 +97,6 @@
 		5A1692F88B3629B39C7F62F936F31153 /* feedbackActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2CDFFB5A35531FE2CF9686296DBA1C /* feedbackActivity~ipad.png */; };
 		5A2251E224F1EAFAE72F76D2BB596401 /* RLMRealm.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 8B30BD86FF10DC2DD3E1BBAD38AFD043 /* RLMRealm.h */; };
 		5AE799FFA3BAC6B85DE2A3687DDFDE37 /* RealmCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAF9D57E25A141FC05AB585661AE30 /* RealmCollection.swift */; };
-		5B766F70B87B5C6E0D846DF8FFCCC0D2 /* Pods-Health AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 753F086101DE02F556DE206D0CA1B30B /* Pods-Health AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B7AE43D4CC781D55EF4912BBE6443DF /* authorize_denied.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4202CFBB79852052EF2F454BA6F176 /* authorize_denied.png */; };
 		5B981698211292E1F92A21CC9F182675 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9CB0374B498778ABCF2CF30B9F8F69 /* IQKeyboardManagerSwift-dummy.m */; };
 		5C1B7FB4706A09F7E95F26B02797BE19 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA632EC5FECE2181AF38CCBFE9165BA /* IQKeyboardReturnKeyHandler.swift */; };
@@ -135,6 +134,7 @@
 		787FFE5A7921C9397AA85E84FF32CABF /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F59DCF0B8ADC7FDE7306A14ECC774E /* SwiftGifOrigin-dummy.m */; };
 		7965A04590F67375EC65249F774B3F6B /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A51ABC3CCFE7A2F9B2380BF81F69ED /* Distribute.swift */; };
 		799FA04442662BE6BC328B38D35FE2A4 /* RLMThreadSafeReference.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 91C24638C2AAD85CF696A987713BB43A /* RLMThreadSafeReference.h */; };
+		79E79DCF2F06F50FB1250B1F180BCF43 /* Pods-Health AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 753F086101DE02F556DE206D0CA1B30B /* Pods-Health AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A365BE5AD9CFDF7FE08E888718D823E /* RLMRealmConfiguration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 110A5C29A4174E0B3C25726A9F986FFD /* RLMRealmConfiguration.h */; };
 		7AE87EE34B44A70223FA5A81FB732839 /* buttonRoundedRegular.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D588D8629992701F7C216571E391507 /* buttonRoundedRegular.png */; };
 		7B09E84CB370746C75B0A35653D9FBDB /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D647DFE581BA783A6D5F157F85B05D /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -263,6 +263,7 @@
 		D78285A34FBC55B0CA2BB74F02F4CFF6 /* RLMResults.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 54875300F77ACDD2DD9DAE18C8E48984 /* RLMResults.h */; };
 		D78838BEB773DABEC644DE99D6D6DD69 /* RLMRealmConfiguration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 718806CCFC4AFA7B8B170073FB17F01E /* RLMRealmConfiguration_Private.h */; };
 		DA040E591FC7C337BA616FC832ED2099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
+		DA12889C649BA6429FC0BB01DB35E4D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
 		DA6E9C557060BE6D05B7927860014179 /* LinkingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434B84869DD5939A1253C2B419EB808 /* LinkingObjects.swift */; };
 		DA907585177FF0CDCAF35ECF2241EA0F /* RLMObjectBase_Dynamic.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = CB22D372EF0C7AF475B4F62FDC86F0D3 /* RLMObjectBase_Dynamic.h */; };
 		DB1BA7D847804E16883FCAF1FC1DBDF3 /* RLMRealmConfiguration+Sync.h in Headers */ = {isa = PBXBuildFile; fileRef = E47BB9A6F292BA76D28016F078D4C8FC /* RLMRealmConfiguration+Sync.h */; };
@@ -272,7 +273,6 @@
 		DEB47EFD1788269BF6A25154B847E7C6 /* Realm.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB6DA3F3F1A513358ACFD6B19F69067 /* Realm.h */; };
 		E0203D939B64C304BF48A95251952102 /* buttonRoundedDeleteHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C3ACAFB02052B49CA6E993437F25BA /* buttonRoundedDeleteHighlighted@2x.png */; };
 		E03557CAD1B7F1A2AFC0B2C445706491 /* RLMCollection.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0012D68E0DDCF26A083E59B44AF4FD77 /* RLMCollection.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"2.2.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		E037C267219907E897A1CA267E8B5E30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48329C25D846DB68A7AAAAA39C6C178 /* Foundation.framework */; };
 		E1845A0877C338ADBA001642DF830000 /* ObjectSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC3ED1C3F0241A5BB350EDFE2C9144E /* ObjectSchema.swift */; };
 		E267DF3A51BD54D0623A4490F2D9DDAB /* RLMResults_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 7655B4DDF55C7547B3F9A1BEE1505783 /* RLMResults_Private.h */; };
 		E42D10ABD91D672C248B780DBAEB1DCC /* RLMAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F54166BA3CF37773C71BABF814F3FC /* RLMAccessor.h */; };
@@ -371,6 +371,13 @@
 			remoteInfo = CircleProgressView;
 		};
 		9EA282751AF77356C67C326167D51864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9AD825427F216B54E693242E671FA1;
+			remoteInfo = "HockeySDK-HockeySDKResources";
+		};
+		ADECC320AF9B5F05E4B7C0A669E9A702 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -780,6 +787,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0CBA87ACCA0DFE8758C1314EFBF3C02A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA12889C649BA6429FC0BB01DB35E4D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10062CC15DAEABE95D65862067E8682B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -827,14 +842,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF6FAAC99B3B89F462C36FDB0037B91 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64DAA694D14A9D6FACFA5B458335C6A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E037C267219907E897A1CA267E8B5E30 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1513,19 +1520,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3825C3773CD8C6F0AE360F1AB9507529 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E79DCF2F06F50FB1250B1F180BCF43 /* Pods-Health AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C8FF3D7F783A2F596FF55F961C45C4D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				965D3E2B4442301CC1884DA5E842E61F /* CircleProgressView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		676E5CB9F58A8AD63C385FDD299178A4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B766F70B87B5C6E0D846DF8FFCCC0D2 /* Pods-Health AppUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1727,23 +1734,6 @@
 			productReference = 3515D67AAA86068D6AB8678181ECB84D /* Cartography.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6B65D7B05D8E5F8113E75FFA56DB0002 /* Pods-Health AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCE24258AA1E6C400CDE1CA144320F87 /* Build configuration list for PBXNativeTarget "Pods-Health AppUITests" */;
-			buildPhases = (
-				30B332D72391782944FA81D6AB5F37D3 /* Sources */,
-				64DAA694D14A9D6FACFA5B458335C6A9 /* Frameworks */,
-				676E5CB9F58A8AD63C385FDD299178A4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Health AppUITests";
-			productName = "Pods-Health AppUITests";
-			productReference = DC1A5047C72A0E7698E69DD450E3DB98 /* Pods_Health_AppUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		75FAAB24194547DB85DDB849EDC4A037 /* SwiftGifOrigin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900D919AA79F627EA4D78AABCD114168 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
@@ -1796,6 +1786,24 @@
 			name = RealmSwift;
 			productName = RealmSwift;
 			productReference = 0A3A0ACCED4B06E2F45E613CC43E686F /* RealmSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7AC19286AE5979EBECBD839524CC8F2 /* Pods-Health AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AD543B3BBAEA5F22C1B3217A5DF1FC /* Build configuration list for PBXNativeTarget "Pods-Health AppUITests" */;
+			buildPhases = (
+				135282F01ADA619148B00B873568D783 /* Sources */,
+				0CBA87ACCA0DFE8758C1314EFBF3C02A /* Frameworks */,
+				3825C3773CD8C6F0AE360F1AB9507529 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2A5507A97BC5BC93AE3E6FD50F8ECD /* PBXTargetDependency */,
+			);
+			name = "Pods-Health AppUITests";
+			productName = "Pods-Health AppUITests";
+			productReference = DC1A5047C72A0E7698E69DD450E3DB98 /* Pods_Health_AppUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D3DDC2A539B87528733AB166C98CFEEA /* Pods-Health AppTests */ = {
@@ -1859,7 +1867,7 @@
 				4DC059E04CBA98AEDDB5C34E02D551E9 /* IQKeyboardManagerSwift */,
 				4DE486BA740776E6DE09A2A232CDD5CA /* Pods-Health App */,
 				D3DDC2A539B87528733AB166C98CFEEA /* Pods-Health AppTests */,
-				6B65D7B05D8E5F8113E75FFA56DB0002 /* Pods-Health AppUITests */,
+				C7AC19286AE5979EBECBD839524CC8F2 /* Pods-Health AppUITests */,
 				787311836BF953E9CFE73BD8FCBF17F3 /* Realm */,
 				B20A02EB2AAF338A54D428878A378BCD /* RealmSwift */,
 				75FAAB24194547DB85DDB849EDC4A037 /* SwiftGifOrigin */,
@@ -1940,20 +1948,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		135282F01ADA619148B00B873568D783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1235DAE80D7451B660A0F8F152677E /* Pods-Health AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D1B7781258BF720602FB8AB5B64223E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				07BC142E0283D795FE29BB68CB515E7C /* CircleProgressView-dummy.m in Sources */,
 				6162AB0721F29E7CBBC2D21A4B7F5975 /* CircleProgressView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30B332D72391782944FA81D6AB5F37D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30162DC8280EEB1D9A683616DDB56DE0 /* Pods-Health AppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2187,6 +2195,12 @@
 			name = Realm;
 			target = 787311836BF953E9CFE73BD8FCBF17F3 /* Realm */;
 			targetProxy = 2D30CAFE32D0065DD9E9FD08FC47C8A1 /* PBXContainerItemProxy */;
+		};
+		8E2A5507A97BC5BC93AE3E6FD50F8ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HockeySDK-HockeySDKResources";
+			target = EB9AD825427F216B54E693242E671FA1 /* HockeySDK-HockeySDKResources */;
+			targetProxy = ADECC320AF9B5F05E4B7C0A669E9A702 /* PBXContainerItemProxy */;
 		};
 		A89447C3CEA4B67BD121727E8ECA8DCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2461,6 +2475,41 @@
 			};
 			name = Debug;
 		};
+		636CA3E3CAD93183D1E31768EE16D6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE497414998B314423C5F13EFD00332 /* Pods-Health AppUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Health AppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Health AppUITests/Pods-Health AppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Health_AppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6617A8D10B6F1B069DA0273E767B3C5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57E3CF50FB489F957DBBD931EBA8E655 /* Pods-Health App.release.xcconfig */;
@@ -2488,41 +2537,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Health_App;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		718E79EC2EE706227811C7F62409E374 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0F34DF4D4F2004A90239BD1F58B92B /* Pods-Health AppUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Health AppUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Health AppUITests/Pods-Health AppUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Health_AppUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2748,41 +2762,6 @@
 			};
 			name = Release;
 		};
-		BC18D8E9E2C724F815A0FC84C5878253 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DE497414998B314423C5F13EFD00332 /* Pods-Health AppUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Health AppUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Health AppUITests/Pods-Health AppUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Health_AppUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BCE4FC17A531C9E7C2D0AADD856CBDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A151096BB6FB0EAF4429DE5654E94BE8 /* Cartography.xcconfig */;
@@ -2848,6 +2827,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C7D125460F0BEA6A5885B2FF0B49C314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0F34DF4D4F2004A90239BD1F58B92B /* Pods-Health AppUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Health AppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Health AppUITests/Pods-Health AppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Health_AppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C8DECCD87DD9F217DD4698F72A042FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3034,6 +3048,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		56AD543B3BBAEA5F22C1B3217A5DF1FC /* Build configuration list for PBXNativeTarget "Pods-Health AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636CA3E3CAD93183D1E31768EE16D6C3 /* Debug */,
+				C7D125460F0BEA6A5885B2FF0B49C314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5B6CE56FDC98EB7C712C1ACED53612A7 /* Build configuration list for PBXNativeTarget "CircleProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3093,15 +3116,6 @@
 			buildConfigurations = (
 				4BA68970E212868F04A0A939FD6A0682 /* Debug */,
 				6617A8D10B6F1B069DA0273E767B3C5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCE24258AA1E6C400CDE1CA144320F87 /* Build configuration list for PBXNativeTarget "Pods-Health AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC18D8E9E2C724F815A0FC84C5878253 /* Debug */,
-				718E79EC2EE706227811C7F62409E374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

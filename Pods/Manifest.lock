@@ -19,6 +19,7 @@ DEPENDENCIES:
   - Cartography (~> 1.0)
   - CircleProgressView (from `https://github.com/CardinalNow/iOS-CircleProgressView.git`)
   - GoogleAnalytics (~> 3.17)
+  - HockeySDK
   - HockeySDK (~> 4.1)
   - IQKeyboardManagerSwift
   - OneSignal (~> 2.3)
@@ -47,6 +48,6 @@ SPEC CHECKSUMS:
   SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
   TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
 
-PODFILE CHECKSUM: 4fe43ae115966d6d75f9fde971d36d51214e2ab2
+PODFILE CHECKSUM: c7dca08745c604601ab63cb3ce192f2f306ce767
 
 COCOAPODS: 1.1.1
