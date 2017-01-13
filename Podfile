@@ -22,7 +22,7 @@ target 'Health App' do
 
   target 'Health AppUITests' do
     inherit! :search_paths
-	pod 'HockeySDK'
+	pod 'HockeySDK’
     # Pods for testing
   end
 
