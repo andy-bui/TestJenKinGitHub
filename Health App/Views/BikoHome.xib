@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Health_App" customModuleProvider="target">
+            <connections>
+                <outlet property="bikoMeter" destination="2wW-L7-Ork" id="xcZ-kN-sAZ"/>
+                <outlet property="bikoView" destination="zb7-nq-rpx" id="DxU-nq-JbY"/>
+                <outlet property="reducedCaloIntakeBiko" destination="Ir9-eh-Vcf" id="9bZ-ei-6qR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zb7-nq-rpx">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="343"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_bikokusai" translatesAutoresizingMaskIntoConstraints="NO" id="7vE-2W-P8a">
+                    <rect key="frame" x="5" y="0.0" width="333" height="333"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目標まで -4,850 kcal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ir9-eh-Vcf">
+                    <rect key="frame" x="88" y="230" width="167" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.98980742692947388" green="0.63668221235275269" blue="0.5163542628288269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2wW-L7-Ork">
+                    <rect key="frame" x="98" y="249.5" width="147" height="31"/>
+                    <color key="tintColor" red="0.98043721910000003" green="0.56609594819999998" blue="0.44413986799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ir9-eh-Vcf" firstAttribute="width" secondItem="7vE-2W-P8a" secondAttribute="width" multiplier="2:4" id="DgA-oR-Q0i"/>
+                <constraint firstAttribute="trailing" secondItem="2wW-L7-Ork" secondAttribute="trailing" constant="100" id="Kbz-Q6-My4"/>
+                <constraint firstItem="7vE-2W-P8a" firstAttribute="leading" secondItem="zb7-nq-rpx" secondAttribute="leading" constant="5" id="SvB-GG-aea"/>
+                <constraint firstItem="7vE-2W-P8a" firstAttribute="top" secondItem="zb7-nq-rpx" secondAttribute="top" id="aw0-2X-wbr"/>
+                <constraint firstAttribute="trailing" secondItem="7vE-2W-P8a" secondAttribute="trailing" constant="5" id="bRd-u9-zI0"/>
+                <constraint firstItem="Ir9-eh-Vcf" firstAttribute="centerY" secondItem="zb7-nq-rpx" secondAttribute="centerY" multiplier="3:2.15" id="fLb-ig-Ouh"/>
+                <constraint firstAttribute="bottom" secondItem="7vE-2W-P8a" secondAttribute="bottom" constant="10" id="hw5-eZ-ZMT"/>
+                <constraint firstItem="Ir9-eh-Vcf" firstAttribute="centerX" secondItem="zb7-nq-rpx" secondAttribute="centerX" id="jVm-T3-JSU"/>
+                <constraint firstItem="2wW-L7-Ork" firstAttribute="top" secondItem="Ir9-eh-Vcf" secondAttribute="bottom" id="nE2-PE-xIQ"/>
+                <constraint firstItem="2wW-L7-Ork" firstAttribute="leading" secondItem="zb7-nq-rpx" secondAttribute="leading" constant="100" id="wBn-uY-qh1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="50" y="-574"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_bikokusai" width="323" height="321"/>
+    </resources>
+</document>
